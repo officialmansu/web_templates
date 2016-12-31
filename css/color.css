@@ -1,0 +1,44 @@
+.container {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+  .title-container {
+    border: 1px solid red;
+    box-sizing: border-box;
+  }
+
+    .title-image-container {
+      border: 1px solid orange;
+      box-sizing: border-box;
+    }
+
+      .image {
+        border: 1px solid yellow;
+        box-sizing: border-box;
+      }
+
+  .title-text-container {
+    border: 1px solid green;
+    box-sizing: border-box;
+  }
+
+    .title {
+      border: 1px solid GreenYellow;
+      box-sizing: border-box;
+    }
+
+  .article-container {
+    border: 1px solid blue;
+    box-sizing: border-box;
+  }
+
+    .article-title-text {
+      border: 1px solid RoyalBlue;
+      box-sizing: border-box;
+    }
+
+    .article {
+      border: 1px solid #00ffff;
+      box-sizing: border-box;
+    }
