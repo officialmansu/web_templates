@@ -1,0 +1,12 @@
+.image {
+  animation: mobile-nav-cue ease .5s;
+}
+
+@keyframes mobile-nav-cue {
+  from { background-image: url('/img/fb.png');  }
+  to { background-image: url('/img/fb(hovered).png'); }
+}
+@-webkit-keyframes mobile-nav-cue {
+  from { background-image: url('/images/fb.png');  }
+  to { background-image: url('/images/fb(hovered).png'); }
+}
