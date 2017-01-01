@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
 		<title>Hello, World!</title>
 	</head>
 	<!--<link rel="stylesheet" href="/css/color.css">-->
