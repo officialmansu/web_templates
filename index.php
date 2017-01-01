@@ -110,64 +110,8 @@
 		.license:hover {
 			color: gray;
 		}
-
-		.imgreload img {
-			animation-name: imgFadeInOut;
-			animation-timing-function: ease-in-out;
-			animation-iteration-count: infinite;
-			animation-duration: 8s;
-		}
-
-		@keyframes imgFadeInOut {
-			0% {
-				opacity: 1;
-			}
-
-			17% {
-				opacity: 1;
-			}
-
-			25% {
-				opacity: 0;
-			}
-
-			92% {
-				opacity: 0;
-			}
-
-			100% {
-				opacity: 1;
-			}
-		}
 	</style>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript">
-		//$('image').fadeTo('slow', 0.3, function() {
-			//$(this).css('background-image', 'url(' + $img + ')');
-		//}).delay(1000).fadeTo('slow', 1);
-
-		/*$(window).load(function () {
-			$('div.image').hide();
-			var dg_H = $(window).height();
-			var dg_W = $(window).width();
-			$('.title-image-container').css({'height': dg_H, 'width': dg_W});
-			function anim() {
-				$(".title-image-container").first().appendTo('.title-image-container').fadeOut(1500);
-				$(".title-image-container").first().fadeIn(1500);
-				setTimeout(anim, 3000);
-			}
-			anim();
-		})*/
-
-		/*setInterval(function() {
-	    var myImageElement = document.getElementById('image');
-	    imageElement.src = 'https://source.unsplash.com/random/1600x900' + Math.random();
-		}, 5000);*/
-
-		/*$(".image").attr("src", function () {
-			return "https://source.unsplash.com/random/1600x900" + this.src;
-		});*/
-	</script>
 	<body>
 		<div class="container">
 			<div class="title-container">
@@ -184,12 +128,6 @@
 						흠.. 이것은 단순한 예제인 것 같군요.. 아마 당신은 이 예제를 보고 아주 많은 영감을 받았을 것 같지만 알게 뭐야. 내 이름은 만수인데. 무려 가득 찰 만(滿)에 물 수(水) 자에요! 정말 놀랍지 않나요? 뭐 이름에 물 수(水) 자가 들어간다는 것 하나만으로도 알 수 있죠. 아무튼, 이 예제는 오픈소스는 아니지만 사용하실 때 제 이름을 꼭 언급해 주세요! 아 참, 그리고 이건 수익 창출을 목적으로 하는 프로젝트에는 사용할 수 없어요. 그리고 제가 한 말을 같이 써주셔야 해요. 알았죠? <br/><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="license">(CC BY-NC-SA 4.0)</a>
 					</p>
 				</article>
-				<div class="imgreload">
-					<img src="https://source.unsplash.com/random/">
-					<img src="https://source.unsplash.com/nature/">
-					<img src="https://source.unsplash.com/food/">
-					<img src="https://source.unsplash.com/buildings/">
-				</div>
 			</div>
 		</div>
 	</body>
