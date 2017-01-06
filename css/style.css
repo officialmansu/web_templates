@@ -8,12 +8,10 @@ body {
 }
 
 .container {
-  /*position: fixed;*/
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  /*overflow: auto;*/
 }
 
 .title-container {
@@ -30,14 +28,19 @@ body {
 }
 
 .title-text-container {
-  /*margin-left: 3.5rem;*/
   padding-top: .3em;
   height: 6em;
 }
 
+@-moz-document url-prefix() {
+  .title-text-container {
+    padding-top: 1em;
+  }
+}
+
 .title {
   font-size: 3.5em;
-  margin-left: .3em;
+  margin-left: 2em;
   transition: color .5s ease;
 }
 
@@ -46,28 +49,38 @@ body {
 }
 
 .image {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+
+}
+
+.image img {
+  position: absolute;
   width: 5em;
   height: 5em;
   padding: .5rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: background-image .5s ease-in-out;
-  -ms-transition: background-image .5s ease-in-out;
-  -o-transition: background-image .5s ease-in-out;
-  -moz-transition: background-image .5s ease-in-out;
-  -webkit-transition: background-image .5s ease-in-out;
-  background-image: url("../img/fb.png");
+  left: 0;
+  transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
 }
 
-.image:hover {
-  background-image: url("../img/fb(hovered).png");
+.image img.top:hover {
+  opacity: 0;
 }
 
 .article-container {
   padding-right: 1em;
   padding-top: .7em;
   padding-bottom: .9em;
-  /*text-align: center;*/
   top: 50%;
   position: fixed;
   transform: translateY(-50%);
@@ -84,13 +97,11 @@ body {
 }
 
 .article-title-text {
-  /*text-align: left;*/
   font-size: 2rem;
   margin: 0;
 }
 
 .article {
-  /*text-align: left;*/
   max-width: 50rem;
   margin: 0;
 }

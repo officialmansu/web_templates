@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Hello, World!</title>
 	</head>
-	<!--<link rel="stylesheet" href="/css/color.css">-->
 	<link rel="stylesheet" href="/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -13,7 +12,10 @@
 		<div class="container">
 			<div class="title-container">
 				<div class="title-image-container">
-					<div alt="Facebook" class="image"></div>
+					<div alt="Facebook" class="image">
+						<img class="bottom" src="/img/fb(hovered).png" alt="">
+						<img class="top" src="/img/fb.png" alt="">
+					</div>
 				</div>
 				<div class="title-text-container">
 					<a class="title">단순한</a>
