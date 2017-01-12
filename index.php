@@ -3,7 +3,36 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>Hello, World!</title>
+		<style media="screen">
+			.goshow-container {
+				position: absolute;
+				display: table;
+				top: 0;
+				right: 0;
+				height: 7.3em;
+
+				width: 7.3em;
+				text-align: center;
+
+			}
+
+			.goshow {
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle;
+				text-decoration: none;
+				color: rgb(204, 204, 204);
+				font-size: 3.5em;
+			  /*margin-left: 2em;*/
+			  transition: color .5s ease;
+			}
+
+			.goshow:hover {
+				color: white;
+			}
+		</style>
 	</head>
 	<link rel="stylesheet" href="/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
@@ -19,12 +48,16 @@
 				</div>
 				<div class="title-text-container">
 					<a class="title">단순한</a>
+					<!--<div class="goshow-container">
+						<a class="goshow" href="#">GO</a>
+					</div>-->
 				</div>
+
 			</div>
 				<article class="article-container">
 					<p class="article-title-text">예제에요!</p>
 					<p class="article">
-						흠.. 이것은 단순한 예제인 것 같군요.. 아마 당신은 이 예제를 보고 아주 많은 영감을 받았을 것 같지만 알게 뭐야. 내 이름은 만수인데. 무려 가득 찰 만(滿)에 물 수(水) 자에요! 정말 놀랍지 않나요? 뭐 이름에 물 수(水) 자가 들어간다는 것 하나만으로도 알 수 있죠. 아무튼, 이 예제는 오픈소스는 아니지만 사용하실 때 제 이름을 꼭 언급해 주세요! 아 참, 그리고 이건 수익 창출을 목적으로 하는 프로젝트에는 사용할 수 없어요. 그리고 제가 한 말을 같이 써주셔야 해요. 알았죠? <br/><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="license">(CC BY-NC-SA 4.0)</a>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.<br/><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="license">(CC BY-NC-SA 4.0)</a>
 					</p>
 				</article>
 				<div class="bottom-container"></div>
